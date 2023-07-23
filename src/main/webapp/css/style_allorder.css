@@ -1,0 +1,36 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+        .page {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .order-container {
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        th {
+            background-color: #FF00AA;
+            color: white;
+        }
+        .no-orders {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+        }

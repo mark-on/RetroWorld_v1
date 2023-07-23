@@ -1,0 +1,137 @@
+
+.sort{
+
+	width:100%;
+	display:flex;
+	justify-content:right;
+}
+
+select {
+  background-color: #F129D0;
+  color: white;
+  padding: 8px;
+  width: 150px;
+  border: none;
+  font-size: 15px;
+
+}
+
+select::before {
+  content: "\f13a";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: #3C0C69;
+  background-color: #3C0C69;
+  pointer-events: none;
+}
+
+select:hover::before {
+  color:white;
+  background-color: #3C0C69;
+}
+
+select option {
+  padding: 30px;
+}
+
+.p_container {
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin:0 5% 0 5%;
+}
+
+.product {
+	display: grid;
+	grid-template-columns: 1fr 1fr; /* Divide in due colonne con larghezza uguale */
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 5px; 
+	align-items: center;
+	width:15rem;
+	height:20rem;
+	padding:2%;
+	justify-items: start;
+}
+.img_container{
+	grid-column:  1 / 3 ;
+	grid-row: 1 / 2 ;
+	width:15rem;
+	height:15rem;
+}
+
+#img{
+	max-width: 100%; 
+	  max-height: 100%; 
+	  align-self:center;
+	  object-fit: cover; 
+}
+#brand{
+	max-width: 30%; 
+  max-height: 30%; 
+  float:left;
+}
+.title_container{
+	margin:0;
+	width:100%;
+	height:auto;
+	grid-column:  1 / 2 ;
+	grid-row: 2 / 3 ;
+	
+	display:column;
+
+}
+p{
+	font-family: 'Futura PT', sans-serif;
+	margin:0;
+}
+
+#title{
+	color: #F129D0;
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: 0em;
+	text-align: left;
+}
+#price{
+	color: #3C0C69;
+	font-size: 1em;
+	font-weight: 500;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.cart{
+	width:100%;
+	height:100%;
+	grid-column:  2 / 3 ;
+	grid-row: 2 / 3 ;
+	
+	
+	display: flex;
+	  justify-content: center;
+	  align-items: center;	
+}
+button{
+	width:100%;
+	height:40%;
+	background-color:#F129D0;
+	border: none;
+	cursor:pointer;
+	color:white;
+	
+	color: white;
+font-size: 0.9em;
+font-family: Futura;
+font-weight: 700;
+border-radius: 9px;
+transition: background-color 0.3s ease;
+}
+button:hover {
+	background-color:#3C0C69;
+}

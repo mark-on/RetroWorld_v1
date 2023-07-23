@@ -1,0 +1,285 @@
+@charset "ISO-8859-1";
+
+body {
+	margin:0;
+	max-width: 100vw;
+	overflow-x: hidden;
+
+}
+
+.page{
+	padding: 2%;
+}
+p {
+	text-align: left;
+  	font-family: Futura;
+	color: black;
+	font-size: 10px;
+	font-weight: 600;
+	word-wrap: break-word;
+	margin-bottom: 5px;
+}
+.corr > p{
+	font-family: Futura;
+	color: black;
+	font-size: 50px;
+	font-weight: 1000;
+	word-wrap: break-word;
+	margin-bottom: 5px;
+}
+.img_price{
+	display: flex;
+ 	 align-items: center;
+}
+.img_price  p{
+	margin: 0;
+}
+#img{
+	width: 20px; /* Larghezza desiderata per l'immagine */
+  height: auto; /* Altezza automatica per mantenere l'aspetto proporzionato */
+  margin-right: 10px;
+}
+
+.brand_logo{
+	 
+	 height: auto; 
+	 margin:0;
+}
+.quantity{
+	flex: 4;
+  text-align: left;
+  font-family: Futura;
+	color: #4E13A6;
+	font-size: 20px;
+	font-weight: 1000;
+	word-wrap: break-word;
+	margin-bottom: 5px;
+	width:80%;
+}
+
+#button{
+	padding:2%;
+	margin-top: 20px;
+	width:100%;
+	height:auto;
+	background-color:#FF01AA;
+	font-family: Futura;
+	color: white;
+	font-size: 20px;
+	font-weight: 1000;
+	word-wrap: break-word;
+	border:none;
+}
+#button:hover{
+	cursor:pointer;
+}
+.divider {
+  width: 50%; /* Lunghezza personalizzata */
+ 	margin: 20 0 2px; /* Centra il divisore */
+  border: none; /* Rimuove il bordo predefinito */
+  border-top: 4px solid #4E13A6; /* Aggiunge una linea superiore */
+}
+
+.container_p {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top:50px;
+
+}
+.a_c{
+	display: flex;
+	align-items:left;
+	margin-bottom: 10px;
+}
+#amount{
+	margin-right:5%;
+}
+.form_p{
+	display:block;
+	width:80%;
+	margin-bottom:10px;
+}
+.quantity_container{
+	display: flex;
+	justify-content:left;
+
+}
+
+.quantity_container > label{
+	flex: 4;
+  text-align: left;
+  font-family: Futura;
+	color: black;
+	font-size: 30px;
+	font-weight: 1000;
+	word-wrap: break-word;
+	margin-bottom: 5px;
+}
+.quantity_container > #quantity{
+	flex: 1;
+  text-align: left;
+  width:10%;
+  text-align: left;
+  font-family: Futura;
+	color: black;
+	font-size: 30px;
+	font-weight: 1000;
+	word-wrap: break-word;
+	margin-bottom: 5px;
+	color:740AA5;
+	
+}
+#image_p {
+	padding:0 10% 0 0;
+	width: 50%;
+  height: auto;
+
+}
+
+#info_p {
+  width: 30%;
+
+  
+}
+
+
+#image_p > img{
+	width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#name {
+	align-items: center;
+	font-family: Futura;
+	height: auto;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: -1px;
+	text-align: left;
+	text-transform: uppercase;
+	background: linear-gradient(180deg, rgba(21, 31, 150, 0.95) 23.44%,
+		#AC26FE 38.65%, #FFFFFF 50.87%, #740AA5 51.37%, #7011CF 62.09%,
+		#FA00FF 70.82%, #FFEFFA 78.8%),
+		linear-gradient(180deg, #FFFFFF 18.95%, #3949FF 29.93%, #FFFFFF 35.66%,
+		#2D073F 51.87%, #A9037E 56.27%, #FFFFFF 63.46%, #FF00AA 65.12%,
+		#3A0B68 69.55%, #FF00AA 75.91%, #FFFFFF 81.44%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+
+#price{
+	color: black;
+	font-family: Futura;
+	font-weight: 700;
+	word-wrap: break-word
+}
+
+#info_p > #description{
+	color: black;
+	font-size: 30px;
+	font-family: Futura;
+	font-weight: 100;
+	word-wrap: break-word;
+	margin: 10 0 10 0;
+}
+
+
+/*-------------------------------------------------*/
+.cta {
+  display: flex;
+  justify-content:center;
+  padding: 11px 33px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: white;
+  background: #6225E6;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+  border: none;
+}
+
+.cta:focus {
+  outline: none;
+}
+
+.cta:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 #FF01AA;
+}
+
+.cta .second {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.cta:hover  .second {
+  transition: 0.5s;
+  margin-right: 45px;
+}
+
+.span {
+  transform: skewX(15deg)
+}
+
+.second {
+  width: 20px;
+  margin-left: 30px;
+  position: relative;
+  top: 12%;
+}
+
+.one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+.two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.cta:hover .three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover .one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover .two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: #FF01AA;
+  }
+
+  100% {
+    fill: white;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container_p {
+  		flex-direction:column;
+	}
+	#image_p {
+		width: 300px;
+	  	height: 300px;
+
+}
+}

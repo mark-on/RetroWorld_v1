@@ -1,0 +1,193 @@
+@charset "ISO-8859-1";
+.page{
+	margin:5%;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+a{
+	color:red;
+}
+p{
+	font-family: 'Futura PT', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: black;
+	letter-spacing: 0em;
+	max-width: 60%;
+}
+.cart_container{
+	width:100%;
+	height:auto;
+	display:column;
+  	display: flex;
+  	flex-direction: column;
+
+}
+.product_row{
+  	width: 100%;
+  	height: auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:5%;
+}
+
+.product_img{
+	flex: 1;
+	max-width: 20vw;
+  	width: 100%;
+  	height: 100%;
+}
+.product_img > img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.product_info{
+	flex: 2;
+  	width: 100%;
+  	height: 100%;
+  	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.product_info > p{
+	font-family: 'Futura PT', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	color: black;
+	letter-spacing: 0em;
+	text-align: left;
+	max-width: 60%;
+}
+.product_quantity{
+	flex: 1;
+	max-width: 25vw;
+  	width: 100%;
+  	height: 100%;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+button{
+	width:25px;
+	height:25px;
+	border-radius:100%;
+	border:none;
+}
+.product_price{
+	flex: 1;
+	max-width: 25vw;
+  	width: 100%;
+  	height: 100%;
+
+}
+.remove{
+	flex: 1;
+
+}
+
+
+#id{
+	font-size:-10px;
+	text-decoration:none;
+	color:red;
+}
+
+hr {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: 0;
+  border-top: 5px solid #bbb;
+  border-radius: 5px;
+}
+
+.down{
+	display:flex;
+	justify-content:flex-end;
+	align-items:start;
+	margin-bottom:30px;
+}
+
+.down_1{
+	flex:1;
+	max-width: 10vw;
+  	width: 100%;
+  	height: 100%;
+  	display:column;
+  	justify-content:flex-start;
+}
+
+.down  p{
+	font-size:25px;
+	margin-bottom:0;
+}
+#item{
+	font-size:9px;
+	color:grey;
+}
+.down_2{
+	flex:1;
+	max-width: 10vw;
+  	width: 100%;
+  	height: 100%;
+  	display:flex;
+  	justify-content:flex-end;
+  	margin-right:10px;
+}
+.checkout{
+	width:100%;
+	display:flex;
+	justify-content:flex-end;
+}
+#button {
+ height: 3em;
+ width: 20vw;
+ border: none;
+ border-radius: 10em;
+ background: #016DD9;
+ font-family: 'Futura PT', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+}
+
+button:hover {
+ animation: shake3856 0.3s linear infinite both;
+}
+
+@keyframes shake3856 {
+ 0% {
+  -webkit-transform: translate(0);
+  transform: translate(0);
+ }
+
+ 20% {
+  -webkit-transform: translate(-2px, 2px);
+  transform: translate(-2px, 2px);
+ }
+
+ 40% {
+  -webkit-transform: translate(-2px, -2px);
+  transform: translate(-2px, -2px);
+ }
+
+ 60% {
+  -webkit-transform: translate(2px, 2px);
+  transform: translate(2px, 2px);
+ }
+
+ 80% {
+  -webkit-transform: translate(2px, -2px);
+  transform: translate(2px, -2px);
+ }
+
+ 100% {
+  -webkit-transform: translate(0);
+  transform: translate(0);
+ }
+}
+
